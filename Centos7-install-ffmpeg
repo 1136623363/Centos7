@@ -1,0 +1,8 @@
+centos7的yum 默认安装的ffmpeg版本过低，网上升级的方式基本上都是通过下载编译的方式，编译时间较长而且需要配置，项目使用不便，现在通过加载rpm 源的方式实现快速便捷操作
+```
+yum install -y https://mirrors.ustc.edu.cn/rpmfusion/free/el/rpmfusion-free-release-7.noarch.rpm
+```
+安装ffmpeg
+```
+sudo yum install -y ffmpeg   ffmpeg-devel
+```
