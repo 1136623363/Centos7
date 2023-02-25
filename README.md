@@ -35,7 +35,7 @@ rm -rf /usr/bin/python3
 #创建python3软连接
 ln -s /usr/local/python3/bin/python3 /usr/bin/python3 
 #验证python3软连接是否正常创建，正常会返回安装的版本信息
-pyton3 -V 
+python3 -V 
 #删除原有的pip3软连接
 rm -rf /usr/bin/pip3 
 #创建pip3软连接
